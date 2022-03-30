@@ -2,11 +2,7 @@ package ru.yandex.stellarburgers.api.models;
 
 import lombok.*;
 
-@Builder
-@Getter
-@Setter
-@ToString
-@AllArgsConstructor
+@Data
 public class Ingredient {
 
     public String _id;

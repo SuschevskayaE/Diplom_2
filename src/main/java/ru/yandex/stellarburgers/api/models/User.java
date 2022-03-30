@@ -4,10 +4,7 @@ import com.github.javafaker.Faker;
 import lombok.*;
 
 
-@Builder
-@Getter
-@Setter
-@ToString
+@Data
 @AllArgsConstructor
 public class User {
 

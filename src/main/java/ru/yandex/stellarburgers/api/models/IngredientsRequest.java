@@ -4,10 +4,7 @@ import lombok.*;
 
 import java.util.List;
 
-@Builder
-@Getter
-@Setter
-@ToString
+@Data
 @AllArgsConstructor
 public class IngredientsRequest {
 
